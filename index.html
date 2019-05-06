@@ -25,12 +25,12 @@
     p,
     a {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px
+      font-size: 18px
     }
 
     strong {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 18px;
     }
 
     heading {
@@ -40,7 +40,7 @@
 
     papertitle {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 700
     }
 
@@ -91,12 +91,13 @@
               <p align="center">
                 <name>Vijay Veerabadran</name>
               </p>
-              <p>Hello there! My name is <font color="green">Vijay</font>, and I am a Ph.D. student at the UC San Diego. My research lies in the intersection of primate vision and machine vision. I am working on developing the next generation of robust computer vision models by taking inspiration from computational principles that underlie the primate visual cortex. Closing the loop of neuroscience for machine learning, my work also involves the application of state-of-the-art machine learning techniques to analyze neural data.
+              <p>Hello there! My name is <font color="green">Vijay</font>, and I am a Ph.D. student at the UC San Diego. My research lies in the conjunction of primate vision and machine vision. I am working on developing the next generation of robust computer vision models by taking inspiration from computational principles that underlie primate vision. As a way of closing this loop of neuroscience to better machine learning, my work also involves the application state-of-the-art machine learning techniques to analyze neural data (i.e., machine learning to better neuroscience). </p>
 
-                I primarily work with my advisor, <a href="http://www.cogsci.ucsd.edu/~desa/">Dr. Virginia de Sa</a> at <a href="http://cogsci.ucsd.edu/">UCSD Cognitive Science</a>, and I actively collaborate with <a href="https://www.salk.edu/scientist/terrence-sejnowski/">Dr. Terrence Sejnowski</a> at the <a href="https://www.salk.edu/">Salk Institute</a>.
+              <p>I primarily work with my advisor, <a href="http://www.cogsci.ucsd.edu/~desa/">Dr. Virginia de Sa</a> at <a href="http://cogsci.ucsd.edu/">UCSD Cognitive Science</a>, and I actively collaborate with <a href="https://www.salk.edu/scientist/terrence-sejnowski/">Dr. Terrence Sejnowski</a> at the <a href="https://www.salk.edu/">Salk Institute</a>.
               </p>
               <p>
-                Prior to starting my Ph.D., I spent a wonderful year working at Brown University with <a href="http://serre-lab.clps.brown.edu/">Dr. Thomas Serre</a>. In April 2017, I graduated with a bachelors degree in Computer Science and Engineering from <br> <a href="http://www.ssn.edu.in/?page_id=124">SSN College of Engineering</a>, Chennai, India.
+                Prior to starting my Ph.D., I spent a wonderful year working at Brown University with <a href="http://serre-lab.clps.brown.edu/">Dr. Thomas Serre</a>.
+                In April 2017, I graduated with a bachelors degree in Computer Science and Engineering from <a href="http://www.ssn.edu.in/?page_id=124">SSN College of Engineering</a>, Chennai, India.
               </p>
               <p align=center>
                 <a href="mailto:vveeraba@ucsd.edu">Email</a> &nbsp/&nbsp
@@ -116,12 +117,13 @@
                 <tr onmouseout="full_dp()" onmouseover="seg_dp()">
                   <td width="100%">
                   <div class="one">
-                    <div class="two" id='seg_img'><img src='images/vijay.png'></div>
-                      <img src='images/vijay_full.png'>
+                    <img src='images/vijay_full.png' width=200% style="position:absolute; top:-90px">
+                      <div class="two" id='seg_img'><img src='images/vijay.png' width=200% style="position:absolute; top:-90px"></div>
                     </div>
                     <script type="text/javascript">
                       function seg_dp() {
                         document.getElementById('seg_img').style.opacity = "1";
+                        document.getElementById('nonseg_img').style.opacity = "0";
                       }
 
                       function full_dp() {
@@ -161,7 +163,7 @@
               <hr>
               <heading>Research</heading>
               <p>
-                My recent work is centered around the development of neurally inspired recurrent architectures with the help of deep learning, computer vision and optogenetics data. I am interested in computationally reverse-engineering the visual cortex, and also hope to utilize the same models for relevant computer vision tasks with greater robustness and sample efficiency.
+                My recent work is centered around the development of neurally inspired hierarchical and recurrent architectures with the help of computer vision and optogenetics data. I am interested in computationally reverse-engineering the visual cortex, and thereby utilize these models for relevant computer vision tasks to obtain brain-like robustness and sample efficiency.
               </p>
             </td>
           </tr>
